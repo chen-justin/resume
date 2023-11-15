@@ -27,11 +27,11 @@
 % \usepackage[sfdefault]{FiraSans}
 % \usepackage[sfdefault]{roboto}
 % \usepackage[sfdefault]{noto-sans}
-% \usepackage[default]{sourcesanspro}
+\usepackage[default]{sourcesanspro}
 
 % serif
 % \usepackage{CormorantGaramond}
-\usepackage{charter}
+% \usepackage{charter}
 
 
 \pagestyle{fancy}
@@ -114,9 +114,10 @@
 
 \begin{center}
     \textbf{\Huge \scshape Justin Chen} \\ \vspace{1pt}
-    \small 443-604-2058 $|$ \href{mailto:x@x.com}{\underline{chennickyjustin@gmail.com}} $|$ 
+    \small 443-604-2058 $|$ \href{mailto:chennickyjustin@gmail.com}{\underline{chennickyjustin@gmail.com}} $|$ 
     \href{https://linkedin.com/in/chen-justin}{\underline{linkedin.com/in/chen-justin}} $|$
-    \href{https://github.com/chen-justin}{\underline{github.com/chen-justin}}
+    \href{https://github.com/chen-justin}{\underline{github.com/chen-justin}} $|$
+    \href{https://www.chenjustin.com}{\underline{www.chenjustin.com}}
 \end{center}
 
 
@@ -140,11 +141,11 @@
       {Chewy}{Boston, MA}
       {Software Engineer II - Project 49}{Oct 2022 - Present}
       \resumeItemListStart
-        \resumeItem {Worked in a small team of 18 engineers to successfully launch first international expansion into Canada.}
-        \resumeItem {Developed and maintain multiple services forked from the original code base.}
+        \resumeItem {Worked in a small team of < 20 engineers to successfully launch first international expansion into Canada.}
+        \resumeItem {Developed and maintained multiple services forked from the original code base.}
         \resumeItem {Upskilled myself in areas normally supported by release, site reliability, and cloud engineering so that I could unblock myself when faced with an issue anywhere in the stack.}
-        \resumeItem {Collaborated with other teams to understand and refine initial requirements to create a technical design document detailing strategy to migrate and adapt existing business processes to support Canadian launch.}
-        \resumeItem {Worked closely with leadership to craft estimates of development required and prioritized critical work to meet the project's goals and deadlines}
+        \resumeItem {Refined initial requirements and created a technical design document detailing strategy to migrate and adapt existing business processes to support Canadian launch.}
+        \resumeItem {Worked closely with leadership to craft estimates of development and prioritized critical path to meet the project's goals and deadlines}
         \resumeItem {Onboarded and oversaw two contractors brought on in the middle of the project and delegated appropriate sprint tasks. Planned and coordinated releases for features necessary for initial go-live.}
       \resumeItemListEnd
       
@@ -163,7 +164,7 @@
       {Software Engineer I - Agent Experience Team}{Jun 2020 - Feb 2021}
       \resumeItemListStart
         \resumeItem {Maintained business processes to support Customer Service Tech.}
-        \resumeItem {Delivered "Dynamic Message Banners", a feature that integrated with Oracle Service Cloud REST APIs to deliver broadcasts and announcements to customer service agents in real-time in an outlook-like interface.}
+        \resumeItem {Delivered "Dynamic Message Banners", a feature that integrated with Oracle Service Cloud to deliver broadcasts and announcements to customer service agents in real-time in an outlook-like interface.}
       \resumeItemListEnd
 
 
@@ -177,34 +178,33 @@
 
   \resumeSubHeadingListEnd
 
-%-----------PROJECTS-----------
-\section{Projects}
-    \resumeSubHeadingListStart
-      \resumeProjectHeading
-        {\textbf{2048} $|$ \emph{Swift, Firebase, Git}}{}
-        \resumeItemListStart
-          \resumeItem {Built an iOS app derivative of 2048}
-          \resumeItem {Features generalized board sizes, along with traditional 4x4 board size, user login, persistent scores, and score leaderboards.}
-        \resumeItemListEnd
-      \resumeProjectHeading
-          {\textbf{Spyfall} $|$ \emph{React.JS, Typescript, Node.JS, Express.JS, Socket.IO}}{}
-          \resumeItemListStart
-            \resumeItem {Created an online version of tabletop game, Spyfall}
-          \resumeItemListEnd
-    \resumeSubHeadingListEnd
-
 %
 %-----------PROGRAMMING SKILLS-----------
 \section{Technical Skills}
  \begin{itemize}[leftmargin=0.15in, label={}]
     \small{\item{
-     \textbf{Languages}{: JavaScript, PHP, Java, Python, HTML/CSS} \\
-     \textbf{Frameworks}{: React, Node.js, JUnit, Material-UI} \\
+     \textbf{Languages}{: JavaScript, PHP, Java, Python, HTML 5, CSS} \\
+     \textbf{Frameworks}{: React, Node.js, Next.JS, Tailwind CSS, JUnit, Material-UI} \\
      \textbf{Developer Tools}{: Git, Docker, Jenkins, VS Code, IntelliJ} \\
      \textbf{DevOps}{: AWS, Terraform, Serverless, Jest, CI/CD, Cypress}
     }}
  \end{itemize}
 
+%-----------PROJECTS-----------
+\section{Projects}
+\resumeSubHeadingListStart
+  \resumeProjectHeading
+    {\textbf{2048} $|$ \emph{Swift, Firebase, Git}}{}
+    \resumeItemListStart
+      \resumeItem {Built an iOS app derivative of 2048, a matching game to combine tiles in multiples of 2.}
+      \resumeItem {Features generalized board sizes, along with traditional 4x4 board size, user login, persistent scores, and score leaderboards.}
+    \resumeItemListEnd
+  \resumeProjectHeading
+      {\textbf{Spyfall} $|$ \emph{React.JS, Typescript, Node.JS, Express.JS, Socket.IO}}{}
+      \resumeItemListStart
+        \resumeItem {Created an online version of tabletop game, Spyfall, featuring rooms, invite codes, and custom locations.}
+      \resumeItemListEnd
+\resumeSubHeadingListEnd
 
 %-------------------------------------------
 \end{document}
